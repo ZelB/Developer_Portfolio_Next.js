@@ -2,7 +2,7 @@
 import React from 'react'
 
 //Use Next.js Link API to add navigation 
-import Link from 'next/Link';
+import NextLink from 'next/link';
 
 //import icons
 import { GoHome } from "react-icons/go";
@@ -58,21 +58,21 @@ const Header = () => {
                 </style>
 
                     <div>
-                            <Link href='/'>
+                            <NextLink href='/'>
                                 <a style={layout}> <GoHome /> HOME</a>
-                            </Link>
+                            </NextLink>
  
-                            <Link href='/about'>
+                            <NextLink href='/about'>
                                 <a style={layout}> ABOUT  <SiAboutDotMe /> </a>
-                            </Link>
+                            </NextLink>
 
-                            <Link href='/projects'>
+                            <NextLink href='/projects'>
                                 <a style={layout}> <GrProjects /> PROJECTS</a>
-                            </Link>
+                            </NextLink>
 
-                            <Link href='/contact'>
+                            <NextLink href='/contact'>
                                 <a style={layout}><GrContact /> CONTACT </a>
-                            </Link>
+                            </NextLink>
 
                     </div>
                            
