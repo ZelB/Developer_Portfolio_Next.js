@@ -1,0 +1,23 @@
+{
+  "name": "devportfolio",
+  "version": "1.0.0",
+  "description": "Developer Portfolio - Level 3 task 10",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "now-build": "next build",
+    "start": "next start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.6.0",
+    "next": "^10.1.3",
+    "react": "^17.0.2",
+    "react-bootstrap": "^1.5.2",
+    "react-dom": "^17.0.2",
+    "react-icons": "^4.2.0"
+  }
+}
